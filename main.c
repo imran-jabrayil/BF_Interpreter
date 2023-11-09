@@ -25,7 +25,6 @@ int main(int argc, char *argv[]) {
             case '[': parseLoop(file);       break;
             default: break;
         }
-        // printState();
     }
 
     fclose(file);

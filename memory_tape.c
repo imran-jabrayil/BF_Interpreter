@@ -71,11 +71,3 @@ void parseLoop(FILE *file) {
 
     fseek(file, loopEndIndex + 1, SEEK_SET);
 }
-
-
-// void printState() {
-//     for (int i = 0; i <= mt._ci; ++i) {
-//         printf("%d\t", mt._arr[mt._ci]);
-//     }
-//     printf("\n");
-// }

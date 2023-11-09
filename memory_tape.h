@@ -18,6 +18,4 @@ void executeCommand(enum Command command);
 
 void parseLoop(FILE *file);
 
-void printState();
-
 #endif //BFINTERPRETER_MEMORY_TAPE_H
